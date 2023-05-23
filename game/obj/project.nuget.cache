@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o6hm2k/3mJDCA2UwmpABz2m5aR/HLCRLNcv6KFBqmdubMAUP3GqctiD91ZIR/vTCyROTEPrHh3i6kQlHXUEx+w==",
+  "success": true,
+  "projectFilePath": "/Users/sophia/Documents/projects/game/game/game.vbproj",
+  "expectedPackageFiles": [
+    "/Users/sophia/.nuget/packages/raylib/4.5.0/raylib.4.5.0.nupkg.sha512",
+    "/Users/sophia/.nuget/packages/raylib-cs/4.5.0/raylib-cs.4.5.0.nupkg.sha512",
+    "/Users/sophia/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

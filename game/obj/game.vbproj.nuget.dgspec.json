@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sophia/Documents/projects/game/game/game.vbproj": {}
+  },
+  "projects": {
+    "/Users/sophia/Documents/projects/game/game/game.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sophia/Documents/projects/game/game/game.vbproj",
+        "projectName": "game",
+        "projectPath": "/Users/sophia/Documents/projects/game/game/game.vbproj",
+        "packagesPath": "/Users/sophia/.nuget/packages/",
+        "outputPath": "/Users/sophia/Documents/projects/game/game/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/Users/sophia/Library/Application Support/Godot/mono/GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/sophia/.nuget/NuGet/NuGet.Config",
+          "/Users/sophia/.nuget/NuGet/config/Godot.Offline.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Raylib-cs": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "raylib": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
