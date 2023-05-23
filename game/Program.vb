@@ -1,16 +1,9 @@
-Imports System
-Imports Raylib_cs
+Imports game.Engine
 
 Module Program
     Sub Main(args As String())
-        RayLib.InitWindow(800, 600, "Hello world")
-        Raylib.SetTargetFPS(60)
-        while not CBool(Raylib.WindowShouldClose())
-            Raylib.BeginDrawing()
-            Raylib.ClearBackground(color.DARKGRAY)
-            Raylib.DrawText(RayLib.GetFPS(), 10, 10, 20, color.WHITE)
-            Raylib.EndDrawing()
-        End While
-        Raylib.CloseWindow()
+        Dim engine = new GameEngine()
+        engine.Run()
     End Sub
+    
 End Module
