@@ -5,16 +5,20 @@ Imports game.Engine.Systems
 Imports game.Engine.Entities
 
 namespace Engine
-    Class GameEngine
+    Public Class GameEngine
         
         Dim SpriteSheet
         Dim CropRect
         Dim DestRect
         Dim CropRectX = 0
         Dim CropRectWidth = 8
+        Public Singleton as Entity
+        
         
         Public Sub New
-            
+            Dim singleton as new Entity()
+            singleton.Components.Add(new Singleton() With {.State = GameState.Menu})
+            Singleton = singleton
         End Sub
         
         Public Sub Run
